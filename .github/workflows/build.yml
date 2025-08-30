@@ -24,7 +24,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: debian-kernel
-          path: |    
+          path: |  
+            linux*/**
             vmlinuz*         
             System.map*        
             config           
