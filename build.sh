@@ -17,4 +17,4 @@ done
 
 cp ${ROOT}/config .config
 make olddefconfig
-make bindeb-pkg -j$(nproc) INSTALL_MOD_STRIP=1
+make -j$(nproc) 
